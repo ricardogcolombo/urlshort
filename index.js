@@ -83,7 +83,8 @@ app.use((error, req, res, next) => {
 app.get("/:id", async (req, res) => {
     try {
         const {id: slug} = req.params;
-        const url = await urls.finOne({slug});
+        const url = await urls.findOne({slug});
+
         if (url) {
             return res.redirect(url.url);
         }
