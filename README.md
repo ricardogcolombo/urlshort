@@ -2,7 +2,7 @@
 Another Url shortener
 
 ## run ##
-Create an .env.development and .env.production files to configure some enviroment variables. (use .env.sample to do this)
+Create an .env.development and .env.production files to configure enviroment variables. (use .env.sample to do this)
 
 ###  Development ###
 ```npm run dev``
